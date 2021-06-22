@@ -2,10 +2,7 @@
 
 
 /*!
- * Bootstrap v4.4.1 (https://getbootstrap.com/)
- * Copyright 2011-2019 The Bootstrap Authors
- * Copyright 2011-2019 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * 版权信息无效
  */
 :root {
   --blue: #007bff;
@@ -14019,7 +14016,26 @@ a.text-dark:focus {
 }
 
 :root {
-  --primary-color: #ff6600;
+  --primary-color: #0370a5ba;
+  --secondary-color: #ffc600;
+  --font-color: rgba(22, 28, 45, 0.7);
+  --bg-color: #fff;
+  --heading-color: #232121;
+  --border-radius: 6px;
+  --border-radius-full: 35px;
+  --border-color: transparent;
+  --border-color-light: #eee;
+  --nav-color: #232121;
+  --dropdown-color: #fff;
+  --iframe-filter: grayscale(0%);
+  --bg-light: rgba(130, 115, 252, .05);
+  --bg-grey: #f7f7f7;
+  --footer-bg: #000;
+  --card-bg: #fff;
+}
+
+.root002 {
+  --primary-color: #f30004d6;
   --secondary-color: #ffc600;
   --font-color: rgba(22, 28, 45, 0.7);
   --bg-color: #fff;
@@ -14511,7 +14527,7 @@ h1 a.logo-brand {
 
 .w3lhny-banner {
   background-size: cover;
-  background-image: linear-gradient(to right, #ff6600, hsl(30deg 100% 1% / 20%)), url(../images/banner1.jpg);
+  background-image: linear-gradient(to right, #3e3e3ea6, hsl(30deg 100% 1% / 20%)), url(../images/zym-beijing/002.jpg);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: initial;
   background-attachment: fixed;
@@ -14836,7 +14852,17 @@ h1 a.logo-brand {
   z-index: 1;
   min-height: 600px;
 }
-
+.agent-block-image003 {
+  background: url(../images/zym-beijing/001.jpg) no-repeat center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  position: relative;
+  z-index: 1;
+  min-height: 600px;
+}
 .agent-block-image::before {
   content: "";
   background: rgb(16 15 19 / 46%);
@@ -14849,7 +14875,7 @@ h1 a.logo-brand {
 }
 
 .w3l-agent-block p {
-  color: #ffdfc9;
+  color: #efe700;
 }
 
 .subscribe-cat {
