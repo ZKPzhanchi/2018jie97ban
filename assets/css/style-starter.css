@@ -14049,7 +14049,7 @@ a.text-dark:focus {
   --iframe-filter: grayscale(0%);
   --bg-light: rgba(130, 115, 252, .05);
   --bg-grey: #f7f7f7;
-  --footer-bg: #000;
+  --footer-bg: #0000;
   --card-bg: #fff;
 }
 
@@ -14527,7 +14527,7 @@ h1 a.logo-brand {
 
 .w3lhny-banner {
   background-size: cover;
-  background-image: linear-gradient(to right, #3e3e3ea6, hsl(30deg 100% 1% / 20%)), url(../images/zym-beijing/002.jpg);
+  background-image: linear-gradient(to right, #3e3e3ea6, hsl(30deg 100% 1% / 20%)), url(./assets/images/zym-beijing/002.jpg);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: initial;
   background-attachment: fixed;
@@ -14592,7 +14592,7 @@ h1 a.logo-brand {
 /*--/inner-banner-section--*/
 .w3l-innerpage {
   background-size: cover;
-  background-image: linear-gradient(to right, rgb(236 98 6 / 98%), rgb(5 3 0 / 83%)), url(../images/banner2.jpg);
+  background-image: linear-gradient(to right, rgb(0 0 0 / 98%), rgb(5 3 0 / 83%)), url(../images/banner2.jpg);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: center;
   background-attachment: fixed;
