@@ -14083,7 +14083,7 @@ body,
 html {
   margin: 0;
   padding: 0;
-  background: var(--bg-color);
+  background: #0a0a0a0d;
   color: var(--font-color);
   font-family: 'Quicksand', sans-serif;
 }
@@ -14136,16 +14136,19 @@ ul {
   margin: 0;
   padding: 0;
 }
-
+h2 {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+}
 h1,
-h2,
 h3,
 h4,
 h5,
 h6 {
   margin: 0;
   padding: 0;
-  color: #ffffff;
+  color: #000000;
 }
 
 p {
@@ -16082,7 +16085,7 @@ div#small-dialog iframe {
   height: 0.5em;
   overflow: hidden;
   font-size: 0.75em;
-  background-color: var(--font-color);
+  background-color: rgb(191 198 220 / 70%);
   border-radius: 0.25em;
 }
 
